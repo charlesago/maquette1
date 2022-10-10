@@ -1,0 +1,39 @@
+.securitys{
+
+background-color: rgba(128, 128, 128, 0.31);
+    height: 40vh;
+
+}
+
+.formulaire{
+
+    width: 90%;
+}
+
+.following{
+
+    height: 60%;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.notes{
+        border: 1px black solid;
+    height: 28vh;
+    width: 100%;
+
+}
+
+.commands{
+    border-radius: 3%;
+    padding: 8px;
+    background-color: rgba(128, 128, 128, 0.36);
+}
+
+.back{
+
+    background-color: rgba(128, 128, 128, 0.19);
+    height: 25vh;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container">
+            <div class="logo">
+                <span class="text-light fs-5"> Symfony Demo Application</span>
+
+            </div>
+            <a class="navbar-brand text-light" href="#"> Home Page</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+        <div class="securitys mt-5 col col-md-3 p-3">
+
+            <span class="fs-4 "> <i class="fa-sharp fa-solid fa-lock"></i> Security Sign in</span>
+
+            <form>
+                <fieldset disabled>
+                    <div class="mb-3 text-uppercase mt-4 formulaire">
+                        <label for="disabledTextInput" class="form-label">Username</label>
+                        <input type="text" id="disabledTextInput" class="form-control">
+                    </div>
+                    <div class="mb-3 text-uppercase mt-4 formulaire">
+                        <label for="disabledTextInput" class="form-label">password</label>
+                        <input type="password" id="disabledTextInput" class="form-control" >
+                     </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </fieldset>
+            </form>
+
+        </div>
+
+        <div class="following col col-md-5 d-flex flex-column">
+
+            <span class="fs-3 "> <i class="fa-sharp fa-solid fa-arrow-left-long"></i> Try eight of the following user</span>
+
+            <table class="table table-bordered mt-2">
+                <thead>
+            <tr>
+                <th scope="col">Username</th>
+                <th scope="col">Password</th>
+                <th scope="col">Role</th>
+            </tr>
+            </thead>
+                <tbody>
+                <tr>
+                    <th>John-user</th>
+                    <td>Kiten</td>
+                    <td>Role-user (regular-user)</td>
+                </tr>
+                <tr>
+                    <th>anna-admin</th>
+                    <td>Kitten</td>
+                    <td>Role-user (regular-user)</td>
+                </tr>
+
+                </tbody>
+
+            </table>
+
+            <div class="notes col col-md-5 p-3  ">
+                <span> <span class="badge rounded-pill text-bg-success">Note</span>
+                If these users don't work, reload application fixtures by <br>
+                    running this command from the terminal
+                </span> <br>
+                    <div class="commands mt-2 ">
+                         <span > Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                    </div>
+
+                <span> <span class="badge rounded-pill text-bg-success">Note</span>
+                If these users don't work, reload application fixtures by <br>
+                    running this command from the terminal
+                </span> <br>
+                <div class="commands mt-2 ">
+                    <span > Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                </div>
+           </div>
+
+        </div>
+
+        <div class="demo mt-5 col col-md-3 p-3">
+                <div class="back text-start p-3">
+                    <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, odit, reiciendis. Harum id labore maxime nesciunt ratione vero. Adipisci!</span>
+                        <div class="mt-2 ">
+                             <span > Lorem ipsum dolor sit amet, consectetur <a class="text-decoration-none text-success" href="#">adipisicing elit</a> .</span>
+                        </div>
+                </div>
+            <div class="mt-4">
+                <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur corporis .</span>
+            </div>
+
+            <div class="mt-2">
+            <button type="button" class="btn btn-secondary btn-lg">show us</button>
+             </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/278bb0ade2.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
